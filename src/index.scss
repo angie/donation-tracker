@@ -1,7 +1,9 @@
-@import 'coop-frontend-toolkit/styles/fonts';
+@import 'node_modules/coop-frontend-toolkit/styles/coop-toolkit';
+@import 'coop-frontend-toolkit/styles/variables';
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'AvenirNextLTW01-Medium';
+  background-color: $grey-light;
 }
