@@ -1,0 +1,22 @@
+@import 'coop-frontend-toolkit/styles/variables';
+
+.progress__money {
+  margin-top: $half-spacing-unit * -1;
+}
+
+progress {
+  height: $half-spacing-unit;
+  width: 100%;
+  margin: 0 0 $half-spacing-unit;
+  background: $page;
+  border: 1px solid $green-mid;
+}
+progress::-moz-progress-bar {
+  background: $green-mid;
+}
+progress::-webkit-progress-bar {
+  background: transparent;
+}
+progress::-webkit-progress-value {
+  background: $green-mid;
+}

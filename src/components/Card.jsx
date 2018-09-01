@@ -1,15 +1,15 @@
 import React from 'react';
-import ProgressBar from './ProgessBar';
+import Progress from './Progress';
 import '../styles/Card.css';
 
 const Card = () => (
   <article className="Card card column all-12">
     <div className="card__content">
-      <h2 className="card__title">
-        Help refugees rebuild their lives and communities in Manchester
-      </h2>
+      <p className="card__title">
+        <b>Help refugees rebuild their lives and communities in Manchester</b>
+      </p>
       <p>Manchester Refugee Support Network (MSRN)</p>
-      <ProgressBar />
+      <Progress />
     </div>
   </article>
 );

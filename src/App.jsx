@@ -4,10 +4,8 @@ import './App.css';
 
 const App = () => (
   <div className="App wrap">
-    <div className="column all-6">
-      <div className="row">
-        <Card />
-      </div>
+    <div className="column all-4">
+      <Card />
     </div>
   </div>
 );
