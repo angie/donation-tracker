@@ -1,3 +1,5 @@
+@import 'coop-frontend-toolkit/styles/variables';
+
 .donation-panel__form {
   width: 100%;
 }
@@ -6,10 +8,6 @@
   font-size: 1rem;
 }
 
-.donation-panel__btn {
-  width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 9px;
-  padding-bottom: 9px;
+.donation-panel__btn-wrapper {
+  padding-top: $quarter-spacing-unit + 9;
 }

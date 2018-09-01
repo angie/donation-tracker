@@ -10,7 +10,7 @@ const Donate = () => (
           <input id="donation" type="number" placeholder="£" />
         </label>
       </div>
-      <div className="column all-4">
+      <div className="donation-panel__btn-wrapper column all-4">
         <button className="btn btn-medium btn-primary-dark" type="submit">
           Donate
         </button>

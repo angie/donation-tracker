@@ -1,24 +1,20 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import App from '../App';
+import Card from '../components/Card';
 
-const app = mount(<App />);
+const card = mount(<Card raised={50} target={100} />);
 
-it('renders without crashing', () => {
-  expect(app.exists()).toBe(true);
-});
-
-it('renders a wrapping div', () => {
-  expect(app.find('div.App').hasClass('wrap')).toBe(true);
+it('renders correctly', () => {
+  expect(card.exists()).toBe(true);
 });
 
 it('renders a Progress component containing a progress bar and information about progress', () => {
-  const progress = app.find('Progress');
+  const progress = card.find('Progress');
   expect(progress.exists()).toBe(true);
   expect(progress.find('ProgressBar').exists()).toBe(true);
 });
 
 it('renders a Donation component correctly', () => {
-  const donation = app.find('Donate');
+  const donation = card.find('Donate');
   expect(donation.exists()).toBe(true);
 });
