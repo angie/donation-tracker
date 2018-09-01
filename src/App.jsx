@@ -24,7 +24,7 @@ class App extends Component {
     const { isLoading, ...stateProps } = this.state;
     return !isLoading ? (
       <div className="App wrap">
-        <div className="column all-4">
+        <div className="column small-12 medium-4 large-4">
           <Card {...stateProps} />
         </div>
       </div>
