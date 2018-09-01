@@ -1,3 +1,5 @@
+## View deployed component at http://angie.github.io/donation-tracker
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ## Installation
