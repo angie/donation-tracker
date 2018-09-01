@@ -1,5 +1,6 @@
 import React from 'react';
 import Progress from './Progress';
+import Donate from './Donate';
 import '../styles/Card.css';
 
 const Card = () => (
@@ -10,6 +11,10 @@ const Card = () => (
       </p>
       <p>Manchester Refugee Support Network (MSRN)</p>
       <Progress />
+      <Donate />
+      <footer className="card__footer">
+        <a href="/">Learn more about causes local to you</a>
+      </footer>
     </div>
   </article>
 );

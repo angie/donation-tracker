@@ -4,3 +4,9 @@
   background-color: $grey-light;
   padding: $half-spacing-unit;
 }
+
+.card__footer {
+  margin-top: $half-spacing-unit;
+  padding-top: $quarter-spacing-unit;
+  border-top: 1px solid $grey-mid;
+}

@@ -17,3 +17,8 @@ it('renders a Progress component containing a progress bar and information about
   expect(progress.exists()).toBe(true);
   expect(progress.find('ProgressBar').exists()).toBe(true);
 });
+
+it('renders a Donation component correctly', () => {
+  const donation = app.find('Donate');
+  expect(donation.exists()).toBe(true);
+});
