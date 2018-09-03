@@ -8,12 +8,12 @@ const Progress = ({ raised, target }) => (
     <ProgressBar raised={raised} target={target} />
     <div className="row">
       <div className="column all-6">
-        <p>Raised so far</p>
-        <h3 className="progress__money">£{raised}</h3>
+        Raised so far
+        <h3>£{raised}</h3>
       </div>
       <div className="column all-6">
-        <p>Target</p>
-        <h3 className="progress__money">£{target}</h3>
+        Target
+        <h3>£{target}</h3>
       </div>
     </div>
   </div>
