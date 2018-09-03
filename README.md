@@ -29,3 +29,9 @@ Builds production version to `build` folder.
 ## Supported Browsers
 
 All modern browsers, plus IE9 and above.
+
+## If I had more time I would... ⏳
+
+- give feedback on donation by adding a "Thanks!" message which faded out after a set interval.
+- add a gradient to the donation bar.
+- configure setup manually without the use of [Create React App](https://github.com/facebookincubator/create-react-app).
